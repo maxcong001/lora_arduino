@@ -5,7 +5,8 @@ this is the driver for sx1278.
 the control board is  Arduino  Board  Mega2560. 
 1.DRF1278F: 433MHz band, SPI interface, +3.3 working voltage. 
 
-2.
+2.I/O Port definition of Mega2560 
+
 int led  = 13; 
 
 int nsel = 22; 
@@ -20,7 +21,6 @@ int dio0 = 30;
 
 int reset = 32; 
 
-I/O Port definition of Mega2560 
 a.Maser LED: Sending data indication; Slave LED: Receiving data indication 
 
 b.NSEL: DRF1278F SPI chip select input 
