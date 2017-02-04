@@ -22,6 +22,6 @@ e.MISO: DRF1278F SPI data onput
 f.DIO0:  Special  application  port  which  can  be  used  as  the  indication  for  the  success  of sending or receiving a full data package
 g.RESET: DRF1278Freset pin. It can be controlled by an I/O port or floated. In the sample codes this pin is not used. 
 
-3.    In Master side, the module sends one data package. After 2s delay, it will send the next data 
+3.In Master side, the module sends one data package. After 2s delay, it will send the next data 
 package.  In  the  sending  process,  the  LED  will  be  lighted.  After  finishing  transmission,  the  LED  
 will be turned off. In Slave side, the LED will blink when it receives a full package of data. 
