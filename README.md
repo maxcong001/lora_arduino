@@ -22,11 +22,17 @@ int reset = 32;
 
 I/O Port definition of Mega2560 
 a.Maser LED: Sending data indication; Slave LED: Receiving data indication 
+
 b.NSEL: DRF1278F SPI chip select input 
+
 c.SCK: DRF1278F SPI clock input 
+
 d.MOSI: DRF1278F SPI data input 
+
 e.MISO: DRF1278F SPI data onput 
+
 f.DIO0:  Special  application  port  which  can  be  used  as  the  indication  for  the  success  of sending or receiving a full data package
+
 g.RESET: DRF1278Freset pin. It can be controlled by an I/O port or floated. In the sample codes this pin is not used. 
 
 3.In Master side, the module sends one data package. After 2s delay, it will send the next data 
