@@ -7,12 +7,19 @@ the control board is  Arduino  Board  Mega2560.
 
 2.
 int led  = 13; 
+
 int nsel = 22; 
+
 int sck  = 24; 
+
 int mosi = 26; 
+
 int miso = 28; 
+
 int dio0 = 30; 
+
 int reset = 32; 
+
 I/O Port definition of Mega2560 
 a.Maser LED: Sending data indication; Slave LED: Receiving data indication 
 b.NSEL: DRF1278F SPI chip select input 
