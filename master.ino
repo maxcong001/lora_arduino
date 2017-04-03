@@ -378,9 +378,8 @@ void sx1276_7_8_Standby(void)
 **********************************************************/ 
 void sx1276_7_8_Sleep(void) 
 { 
-  SPIWrite(LR_RegOpMode,0x08);                                      /
-/Sleep//Low 
-Frequency Mode 
+  SPIWrite(LR_RegOpMode,0x08);                 
+//Sleep//Low Frequency Mode 
   //SPIWrite(LR_RegOpMode,0x00);                                     
 //Sleep//High Frequency Mode 
 } 
@@ -500,8 +499,7 @@ unsigned char sx1276_7_8_LoRaEntryTx(void)
 { 
   unsigned char addr,temp; 
   sx1276_7_8_Config();                                         
-//setting base 
-parameter 
+//setting base parameter 
   SPIWrite(REG_LR_PADAC,0x87);                                 
   //Tx for 20dBm 
   SPIWrite(LR_RegHopPeriod,0x00);                              
